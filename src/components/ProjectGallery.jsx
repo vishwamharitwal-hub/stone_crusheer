@@ -1,15 +1,15 @@
-﻿import { useEffect, useRef } from 'react'
+import { useEffect, useRef } from 'react'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
 gsap.registerPlugin(ScrollTrigger)
 
 const PROJECTS = [
-  { img: '/stone2.png', title: 'The Seraphine Residences',    cat: 'Luxury Residential', loc: 'Mumbai, India',  span: '2/8' },
-  { img: '/stone3.png', title: 'Azure Palace Hotel',          cat: 'Hospitality',         loc: 'Dubai, UAE',     span: '8/13' },
-  { img: '/stone1.png', title: 'Meridian Corporate HQ',       cat: 'Commercial',          loc: 'Bangalore',      span: '2/6' },
-  { img: '/stone4.png', title: 'Palazzo Verde Estates',       cat: 'Luxury Residential',  loc: 'Goa, India',     span: '6/11' },
-  { img: '/stone3.png', title: 'The Oberoi Grand Renovation', cat: 'Hospitality',         loc: 'Kolkata, India', span: '11/13' },
+  { img: './stone2.png', title: 'The Seraphine Residences',    cat: 'Luxury Residential', loc: 'Mumbai, India',  span: '2/8' },
+  { img: './stone3.png', title: 'Azure Palace Hotel',          cat: 'Hospitality',         loc: 'Dubai, UAE',     span: '8/13' },
+  { img: './stone1.png', title: 'Meridian Corporate HQ',       cat: 'Commercial',          loc: 'Bangalore',      span: '2/6' },
+  { img: './stone4.png', title: 'Palazzo Verde Estates',       cat: 'Luxury Residential',  loc: 'Goa, India',     span: '6/11' },
+  { img: './stone3.png', title: 'The Oberoi Grand Renovation', cat: 'Hospitality',         loc: 'Kolkata, India', span: '11/13' },
 ]
 
 // Manual masonry positions: [col-start, col-end, row, aspectRatio]

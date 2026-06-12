@@ -1,17 +1,17 @@
-﻿import { useEffect, useRef } from 'react'
+import { useEffect, useRef } from 'react'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
 gsap.registerPlugin(ScrollTrigger)
 
 const COLLECTIONS = [
-  { img: '/stone1.png', name: 'Calacatta Oro', cat: 'Italian Marble', origin: 'Carrara, Italy',
+  { img: './stone1.png', name: 'Calacatta Oro', cat: 'Italian Marble', origin: 'Carrara, Italy',
     desc: 'The pinnacle of white marble — golden veining on a pristine white canvas.' },
-  { img: '/stone3.png', name: 'Arabescato Verde', cat: 'Exotic Marble', origin: 'Tuscany, Italy',
+  { img: './stone3.png', name: 'Arabescato Verde', cat: 'Exotic Marble', origin: 'Tuscany, Italy',
     desc: 'Dramatic green and white veining for bold, architectural statements.' },
-  { img: '/stone4.png', name: 'Absolute Black', cat: 'Premium Granite', origin: 'Bangalore, India',
+  { img: './stone4.png', name: 'Absolute Black', cat: 'Premium Granite', origin: 'Bangalore, India',
     desc: 'The purest black granite — flawless, timeless, uncompromising.' },
-  { img: '/stone2.png', name: 'Fantasy Brown', cat: 'Quartzite Collection', origin: 'Rajasthan, India',
+  { img: './stone2.png', name: 'Fantasy Brown', cat: 'Quartzite Collection', origin: 'Rajasthan, India',
     desc: 'Fluid movement of earth tones — quartzite with the beauty of marble.' },
 ]
 

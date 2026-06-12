@@ -48,7 +48,7 @@ export default function Hero() {
         }}
       >
         <img
-          src="/stone1.png"
+          src="./stone1.png"
           alt="Premium stone slab — hero"
           style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
           loading="eager"

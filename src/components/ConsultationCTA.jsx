@@ -1,4 +1,4 @@
-﻿import { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
@@ -52,7 +52,7 @@ export default function ConsultationCTA() {
     >
       {/* Background image with deep overlay */}
       <div style={{ position: 'absolute', inset: 0, zIndex: 0 }}>
-        <img src="/stone4.png" alt="" aria-hidden="true"
+        <img src="./stone4.png" alt="" aria-hidden="true"
           style={{ width: '100%', height: '100%', objectFit: 'cover', opacity: 0.15,
             filter: 'grayscale(40%) brightness(0.6)' }} />
         <div style={{

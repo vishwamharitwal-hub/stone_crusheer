@@ -1,4 +1,4 @@
-﻿import { useEffect, useRef } from 'react'
+import { useEffect, useRef } from 'react'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
@@ -47,7 +47,7 @@ export default function BrandStory() {
             position: 'relative', aspectRatio: '4/5', overflow: 'hidden',
           }}>
             <img
-              src="/stone2.png"
+              src="./stone2.png"
               alt="Stone craftsmanship"
               style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block',
                 filter: 'brightness(0.95) saturate(0.9)' }}
